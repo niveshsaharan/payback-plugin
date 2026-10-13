@@ -1,0 +1,56 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "payback",
+  "version": "1.2.0",
+  "description": "Manage Payback expenses, private cloud records, shared groups, named guests, account linking, balances, and external payment records.",
+  "author": {
+    "name": "Nivesh Saharan",
+    "url": "https://nive.sh"
+  },
+  "homepage": "https://payback.nive.sh/",
+  "keywords": [
+    "payback",
+    "expenses",
+    "split expenses",
+    "bill splitting",
+    "who owes me",
+    "iou",
+    "balances",
+    "settlements",
+    "shared expenses",
+    "group trip",
+    "bills",
+    "ledger"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Payback",
+        "shortDescription": "Track dues and split expenses",
+        "longDescription": "Payback brings private expenses and shared groups into one Expenses experience. Add a named guest without an app account, track exact contributions and shares, and later request an account link using an exact sharing code. The target reviews and accepts the history in Payback; the assistant cannot accept for them. Manual guest payments remain recorded evidence, while payments between account members need recipient confirmation. Shared changes can notify affected participants. Protected corrections and reversals require approval in Payback.\n\nConnect a verified Payback account and approve the permissions needed for your request. Shared tools work independently of the personal cloud book; private cloud tools require an activated book and appropriate account access. Existing connections must explicitly grant new permissions and refresh their tool catalog. The connection reads committed server records; unsynced phone drafts and personal backup or restore are unavailable. Payback does not transfer money, process payments, or verify bank completion.",
+        "developerName": "Nivesh Saharan",
+        "category": "Finance",
+        "capabilities": [
+          "Read private and group balances",
+          "Manage groups, guests and expenses",
+          "Request reviewed guest account links",
+          "Record external payments with provenance"
+        ],
+        "websiteURL": "https://payback.nive.sh/",
+        "supportURL": "https://payback.nive.sh/support",
+        "privacyPolicyURL": "https://payback.nive.sh/privacy",
+        "termsOfServiceURL": "https://payback.nive.sh/terms",
+        "defaultPrompt": [
+          "Who owes me, and who do I owe?",
+          "Show my shared expenses and pending payment claims.",
+          "Which bills and deliveries are due this week?"
+        ],
+        "brandColor": "#A24575",
+        "brandColorDark": "#F0A6C8",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      },
+      "onboardingSkill": "./skills/get-started/SKILL.md"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "payback": {
+      "type": "http",
+      "url": "https://payback.nive.sh/mcp"
+    }
+  }
+}
