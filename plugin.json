@@ -1,6 +1,6 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
-  "name": "owejar",
+  "name": "payback",
   "version": "1.2.1",
   "description": "Manage OweJar expenses, private cloud records, shared groups, named guests, account linking, balances, and external payment records.",
   "author": {

@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "owejar": {
+    "payback": {
       "type": "http",
       "url": "https://owejar.com/mcp"
     }
