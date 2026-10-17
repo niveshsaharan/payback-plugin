@@ -1,11 +1,15 @@
-# Payback
+# OweJar
 
-Track who owes whom, split expenses, and settle up from your AI assistant.
+OweJar (formerly Payback) tracks who owes whom, splits expenses, and records settlements from your AI assistant.
 
-Hosted MCP endpoint: https://payback.nive.sh/mcp
+Website: https://owejar.com/
+
+Hosted MCP endpoint: https://owejar.com/mcp
 
 Sign in using OAuth and choose the permissions you want to grant. The server records ledger events and never transfers money. Changes use the corresponding preparation and confirmation workflow.
 
-[Connection guide](https://payback.nive.sh/help/connect-ai-assistant) · [Privacy](https://payback.nive.sh/privacy) · [Terms](https://payback.nive.sh/terms) · [Support](https://payback.nive.sh/support)
+[Connection guide](https://owejar.com/help/connect-ai-assistant) · [Privacy](https://owejar.com/privacy) · [Terms](https://owejar.com/terms) · [Support](https://owejar.com/support)
 
-This repository contains the public connector package and onboarding instructions. The hosted server runs at the endpoint above.
+Existing Payback connections remain supported during the domain transition. New installations use OweJar. The repository URL is retained so existing directory links continue working.
+
+This repository contains only the public connector package and onboarding instructions. The hosted server runs at the endpoint above.

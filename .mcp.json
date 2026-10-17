@@ -1,8 +1,8 @@
 {
   "mcpServers": {
-    "payback": {
+    "owejar": {
       "type": "http",
-      "url": "https://payback.nive.sh/mcp"
+      "url": "https://owejar.com/mcp"
     }
   }
 }
